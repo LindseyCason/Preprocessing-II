@@ -1,1 +1,32 @@
 // Navigation Styles here
+.header .navbar{
+    @media @mobile{
+        margin:10px;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+      };
+
+
+        font-family: @pfont;
+        font-size: 2vw;
+        border-bottom: 2px dashed #C0C0C0;
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+            p{
+            font-family: @headerFont;
+            font-size: 4vw;
+            // border: 2px solid orangered;
+            padding: 0px;
+
+            }
+            a{
+                // border: 2px solid green;
+                padding: 10px;
+                color:black;
+                font-family: @pfont;
+                text-decoration: none;
+            }
+            
+    }
